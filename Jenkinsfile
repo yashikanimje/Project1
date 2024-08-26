@@ -13,7 +13,7 @@ pipeline{
                        }
                   stage(Deployment){
                         steps{
-                              cp target/Project1 /home/yashika/Documents/devtool/apache-tomcat-9.0.93/webapps/
+                              cp target/Project1.war /home/yashika/Documents/devtool/apache-tomcat-9.0.93/webapps/
                         }
                   }
     }
