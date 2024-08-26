@@ -11,11 +11,5 @@ pipeline{
                        sh 'mvn install'
                         }
                        }
-            stage(deploy){
-                  steps{
-            cp target/Project1.war /home/yashika/Documents/devtool/apache-tomcat-9.0.93/webapps
-            }
-      }
-                      
     }
 }
